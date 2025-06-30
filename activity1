@@ -1,0 +1,8 @@
+#!/bin/env python3
+fruits = ['mango', 'apple',' banana', 'orange', 'avocado']
+print(fruits[0])
+print(fruits[4])
+newfruit = input("Enter any other favorite fruit:")
+fruits.append(newfruit)
+print(f"the updates fruit:{fruits}")
+

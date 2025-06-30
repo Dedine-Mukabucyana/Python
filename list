@@ -1,0 +1,12 @@
+#!/bin/env python3
+list = [1, 2, 3, "GEG", 2.3]
+print (list)
+print(list[0])
+print(list[1])
+print (list[-4])
+
+capital_city = {"Nigeria": "Abuja", "Zambia": "Lusaka"}
+
+for country, capital in capital_city.items():
+    print(f"{capital} is the capital of {country}")
+

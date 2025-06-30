@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+
+"""this is a commonwritten in more tha just one line"""
+print ( "Hello,world" ) name = "Gamma AI"
+name = "Gamma"
+
+an_int = 10
+a_float = 2.5
+product = an_int * a_float
+print(product) #25.0
+an_int = 27
+a_float = 3.0
+quotient = an_int /a_float
+print(quotient == an_int / a_float)#true
+print(3**3+3 >30) #false
+print(3**3+3 <=30) #true
+print(name)
+if 5 > 2:
+    print ("five is greater than two")
